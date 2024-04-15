@@ -2,6 +2,8 @@
 
 https://www.youtube.com/watch?v=fSFJrG1wwm8 
 
+https://raw.githubusercontent.com/RodrigoMvs123/Master-OpenAI-Chat-Completions-API-Super-simple/main/README.md
+
 OpenAi
 Docs
 https://platform.openai.com/docs/introduction 
