@@ -1,4 +1,5 @@
-# Master-OpenAI-Chat-Completions-API-Super-simple
+
+## Master-OpenAI-Chat-Completions-API-Super-simple
 
 https://www.youtube.com/watch?v=fSFJrG1wwm8 
 
@@ -6,21 +7,34 @@ https://raw.githubusercontent.com/RodrigoMvs123/Master-OpenAI-Chat-Completions-A
 
 https://github.com/RodrigoMvs123/Master-OpenAI-Chat-Completions-API-Super-simple/blame/main/README.md
 
-OpenAi
+## OpenAi
+
 Docs
+
 https://platform.openai.com/docs/introduction 
+
 Text Generation
 https://platform.openai.com/docs/guides/text-generation 
+
 Chat Completions 
 https://platform.openai.com/docs/guides/text-generation/chat-completions-api 
 
-Create-React-App
-npx create-react-app openai-chat-completions-demo
 
-Visual Studio Code
+## Create React App
+
+```bash
+  npx create-react-app openai-chat-completions-demo
+```
+
+### Visual Studio Code
 Terminal
+```bash
 npx create-react-app openai-chat-completions-demo
+```
 
+## Source Code
+
+```javascript
 Visual Studio Code
 Explorer
 Open Editors
@@ -34,7 +48,9 @@ const App = () => {
 }
 
 export default App;
+```
 
+```javascript
 Visual Studio Code
 Explorer 
 Open Editors
@@ -52,7 +68,9 @@ root.render(
     <App />
   </React.StrictMode>
 )
+```
 
+```javascript
 Visual Studio Code
 Explorer 
 Open Editors
@@ -77,10 +95,16 @@ async function main() {
   console.log(completion.choices[0]) 	
 }
 main()
+```
 
+## OpenAI API Key
+```bash
 my-demo
 apiKey: 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
+```
 
+## Source Code
+```javascript
 Visual Studio Code
 Explorer
 Open Editors
@@ -105,7 +129,9 @@ async function main() {
   console.log(completion.choices[0])
 }
 main()
+```
 
+```javascript
 Visual Studio Code
 Explorer
 Open Editors
@@ -116,11 +142,16 @@ server.js
 
 .env
 OPENAI_API_KEY=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
+```
 
-Visual Studio Code
+### Visual Studio Code
 Terminal
+```bash
 npm i dotenv
+```
 
+## Source Code
+```javascript
 Visual Studio Code
 Explorer
 Open Editors
@@ -147,7 +178,9 @@ async function main() {
   console.log(completion.choices[0])
 }
 main()
+```
 
+```javascript
 Visual Studio Code
 Explorer
 Open Editors
@@ -165,11 +198,16 @@ package.json
   "test": "react-scripts test",
   "eject": "react-scripts eject"
 }
+```
 
-Visual Studio Code
+### Visual Studio Code
 Terminal
+```bash
 npm i nodemon
+```
 
+## Source Code
+```javascript
 Visual Studio Code
 Explorer
 Open Editors
@@ -184,12 +222,16 @@ package.json
   "dotenv": "^16..4.5",
   "nodemon": "^3.1.0"
 }
+```
 
-Visual Studio Code
+### Visual Studio Code
 Terminal
+```bash
 npm i openai
+```
+## Source Code
 
-
+```javascript
 Visual Studio Code
 Explorer
 Open Editors
@@ -205,11 +247,17 @@ package.json
   "nodemon": "^3.1.0",
   "openai": "^4.29.2"
 }
+```
 
-Visual Studio Code
+### Visual Studio Code
 Terminal
+```bash
 npm run start:backend
+```
 
+## Source Code
+
+```javascript
 Visual Studio Code
 Explorer
 Open Editors
@@ -244,11 +292,15 @@ async function main() {
   console.log(completion.choices[0])
 }
 main()
+```
 
-Visual Studio Code
+### Visual Studio Code
 Terminal
+```bash
 npm i express cors
+```
 
+```javascript
 Visual Studio Code
 Explorer
 Open Editors
@@ -278,7 +330,9 @@ package.json
   "nodemon": "^3.1.0",
   "openai": "^4.29.2"
 }
+```
 
+```javascript
 Visual Studio Code
 Explorer
 Open Editors
@@ -313,13 +367,17 @@ app.post('/completion', async (req, res) => {
 })
 
 app.listen(PORT, () => console.log(`Listening on port ${PORT}!`))
+```
 
-Visual Studio Code
+### Visual Studio Code
 Terminal
+```bash
 npm run start:frontend
+```
 
-localhost:3000
+## localhost:3000 
 
+```javascript
 Visual Studio Code
 Explorer
 Open Editors
@@ -347,10 +405,13 @@ const App = () => {
 }
 
 export default App;
+```
 
-localhost:3000
+## localhost:3000
 [                       ] Submit 
 
+## Source Code
+```javascript
 Visual Studio Code
 Explorer
 Open Editors
@@ -386,20 +447,26 @@ const App = () => {
 }
 
 export default App;
+```
 
-localhost:8000
+## localhost:8000
 [ What day is it ] Submit
 
-Visual Studio Code
+### Visual Studio Code
 Terminal
+
 Listening on port 8000!
+```bash
 {
 	index: 0,
 	message: {
 		role: ‘assistant’,
 		content: ‘Today is Tuesday, how can I assist you today?’
 },
+```
 
+## Source Code
+```javascript
 Visual Studio Code
 Explorer
 Open Editors
@@ -435,16 +502,18 @@ app.post('/completion', async (req, res) => {
 })
 
 app.listen(PORT, () => console.log(`Listening on port ${PORT}!`))
+```
 
-localhost:8000
+## localhost:8000
 [ What day is it ] Submit
 
-Visual Studio Code
+### Visual Studio Code
 Terminal
+
 Listening on port 8000!
 
 Console
-
+```bash
 { index: 0, message: {...}, logprobs: null, finish_reason: ‘stop’ }
 	finish_reason: “stop”
 	index: 0
@@ -454,7 +523,10 @@ Console
 		role: “assistant”
 		[[Prototype]]: Object
 	         [[Prototype]]: Object
+```
 
+## Source Code
+```javascript
 Visual Studio Code
 Explorer
 Open Editors
@@ -492,11 +564,15 @@ const App = () => {
 }
 
 export default App;
+```
 
-localhost:8000
+## localhost:8000
 [ What day is it ] Submit
+
 Today is Friday.
 
+## Source Code
+```javascript
 Visual Studio Code
 Explorer
 Open Editors
@@ -532,8 +608,13 @@ app.post('/completion', async (req, res) => {
 })
 
 app.listen(PORT, () => console.log(`Listening on port ${PORT}!`))
+```
+
+### Visual Studio Code
+Terminal
 
 Listening on port 8000!
+```bash
 {
 	id:
 	object:
@@ -547,7 +628,10 @@ Listening on port 8000!
 			finish_reason:
 		}
 ],
+```
 
+## Source Code
+```javascript
 Visual Studio Code
 Explorer
 Open Editors
@@ -585,11 +669,16 @@ const App = () => {
 }
 
 export default App;
+```
 
-localhost:8000
+## localhost:8000
+
 [ What day is it ] Submit
+
 Today is Friday.
 
+## Source Code
+```javascript
 Visual Studio Code
 Explorer
 Open Editors
@@ -626,12 +715,4 @@ const App = () => {
 }
 
 export default App;
-
-
-
-
-
-
-
-
-
+```
